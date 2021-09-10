@@ -87,6 +87,37 @@ body{
 	width: 25%;
 	float: left;
 }
+
+.box1{
+  width: 85%;
+	height: 100px;
+	background-color: #b83530;
+	margin-left: 10px;
+	padding:10px;
+}
+
+.box1 p{
+  font-size: 35px;
+   color: white;
+   font-weight: bold;
+   line-height: 30px;
+   padding-left: 10px;
+   margin-top: 20px;
+   display: inline-block;
+}
+.box1 p span{
+ font-size: 20px;
+ font-weight: 400;
+ color: #818181;
+}
+.box-icon{
+ font-size: 40px!important;
+   float: right;
+   margin-top: 35px!important;
+   color: #818181;
+   padding-right: 10px;
+}
+
 .box{
 	width: 85%;
 	height: 100px;
@@ -120,11 +151,14 @@ body{
 	float: left;
 }
 .col-div-4{
-	width: 30%;
-	float: left;
+  width: 40%;
+  /* float: left; */
+  display: flex
 }
 .content-box{
-	padding: 20px;
+	
+  padding: 17px;
+  display: block;
 }
 .content-box p{
 	margin: 0px;
@@ -138,9 +172,11 @@ body{
     font-size: 15px;
 }
 .box-8, .box-4{
-	width: 95%;
-	background-color: #272c4a;
-	height: 330px;
+  width: 90%;
+  background-color: #272c4a;
+  height: 345px;
+  margin-top: 48px;
+  margin-left: 23px;
 	
 }
 .nav2{
