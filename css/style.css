@@ -1,6 +1,7 @@
 body{
 	margin:0px;
 	padding: 0px;
+  min-height: auto;
 	background-color:#1b203d;
 	overflow: hidden;
 	font-family: system-ui;
